@@ -1982,7 +1982,7 @@ ChamsToggleBtn.MouseButton1Click:Connect(function()
 	saveConfig()
 end)
 
--- НОВАЯ ФУНКЦИЯ 1: CUSTOM FOV + CAMERA FOV
+-- CUSTOM FOV + CAMERA FOV
 local FovCard = Instance.new("Frame")
 FovCard.BackgroundColor3 = COLORS.CardBg
 FovCard.BorderSizePixel = 0
@@ -2010,7 +2010,7 @@ local syncCameraFOV = makeCustomSlider(FovCard, "Camera FOV", 0, 44, 1, Config.C
 	end
 end, 3, "")
 
--- НОВАЯ ФУНКЦИЯ 2: AMBIENT + AMBIENT COLOR PICKER
+-- AMBIENT + AMBIENT COLOR PICKER
 local AmbientCard = Instance.new("Frame")
 AmbientCard.BackgroundColor3 = COLORS.CardBg
 AmbientCard.BorderSizePixel = 0
